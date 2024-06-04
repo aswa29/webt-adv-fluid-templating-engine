@@ -1,0 +1,17 @@
+{
+    "name": "alex/webt-adv-fluid-templating-engine",
+    "autoload": {
+        "psr-4": {
+            "Alex\\WebtAdvFluidTemplatingEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aswa",
+            "email": "alexander.nems@gmail.com"
+        }
+    ],
+    "require": {
+        "typo3fluid/fluid": "^2.11"
+    }
+}

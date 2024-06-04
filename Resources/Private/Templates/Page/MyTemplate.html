@@ -1,0 +1,48 @@
+<f:layout name="myLayout" />
+
+
+<f:section name="Header">
+
+  <!-- add header here ! -->
+
+</f:section>
+
+
+<f:section name="Main">
+
+  <f:render partial="Jumbotron" />
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-4">
+
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '1'}" />
+
+      </div>
+
+      <div class="col-md-4">
+
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
+
+      </div>
+
+      <div class="col-md-4">
+
+        <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '2'}" />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</f:section>
+
+
+<f:section name="Footer">
+
+  <!-- add footer here ! -->
+
+</f:section>
